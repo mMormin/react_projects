@@ -13,7 +13,7 @@ All the works done by [@mMormin](https://github.com/mMormin) with this amazing t
     ├── first-project (project)
     └── WIP
 ```
-
+👮 <sub> vite-model is a react configuration available > [here](https://github.com/O-clock-Cheesecake/React-modele-vite)</sub>
 </br>
 
 ## Projects
