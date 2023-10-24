@@ -1,20 +1,25 @@
-# Recette .gitignore
-recette/logs
-recette/*.log
-recette/npm-debug.log*
-recette/yarn-debug.log*
-recette/yarn-error.log*
-recette/pnpm-debug.log*
-recette/lerna-debug.log*
-recette/node_modules
-recette/dist
-recette/dist-ssr
-recette/*.local
-recette/.vscode/settings.json
-recette/.idea
-recette/.DS_Store
-recette/*.suo
-recette/*.ntvs*
-recette/*.njsproj
-recette/*.sln
-recette/*.sw?
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
