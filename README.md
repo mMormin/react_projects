@@ -4,7 +4,6 @@ First steps with react.js through many projects and components creation. </br>
 All the works done by [@mMormin](https://github.com/mMormin) with this amazing tech is available here !
 ✨✨✨
 
-</br>
 
 ## Map
 ```text
@@ -19,5 +18,3 @@ All the works done by [@mMormin](https://github.com/mMormin) with this amazing t
 
 ## Projects
 - [recette](https://github.com/mMormin/react-oclock_mMormin/tree/recette)
-
-
