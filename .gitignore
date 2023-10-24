@@ -1,25 +1,20 @@
-# Logs
-logs
-**/first-project/*.log
-**/first-project/npm-debug.log*
-**/first-project/yarn-debug.log*
-**/first-project/yarn-error.log*
-**/first-project/pnpm-debug.log*
-**/first-project/lerna-debug.log*
-
-node_modules
-**/first-project/dist
-**/first-project/dist-ssr
-**/first-project/*.local
-
-# Editor directories and files
-**/first-project/.vscode/*
-**/first-project/!.vscode/extensions.json
-**/first-project/!.vscode/settings.json
-**/first-project/.idea
-**/first-project/.DS_Store
-**/first-project/*.suo
-**/first-project/*.ntvs*
-**/first-project/*.njsproj
-**/first-project/*.sln
-**/first-project/*.sw?
+# Recette .gitignore
+recette/logs
+recette/*.log
+recette/npm-debug.log*
+recette/yarn-debug.log*
+recette/yarn-error.log*
+recette/pnpm-debug.log*
+recette/lerna-debug.log*
+recette/node_modules
+recette/dist
+recette/dist-ssr
+recette/*.local
+recette/.vscode/settings.json
+recette/.idea
+recette/.DS_Store
+recette/*.suo
+recette/*.ntvs*
+recette/*.njsproj
+recette/*.sln
+/recette/*.sw?
