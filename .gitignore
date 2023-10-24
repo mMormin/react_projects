@@ -17,4 +17,4 @@ recette/*.suo
 recette/*.ntvs*
 recette/*.njsproj
 recette/*.sln
-/recette/*.sw?
+recette/*.sw?
