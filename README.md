@@ -18,3 +18,22 @@ All the works done by [@mMormin](https://github.com/mMormin) with this amazing t
 
 ## Projects
 - [recette](https://github.com/mMormin/react-oclock_mMormin/tree/recette)
+
+
+## Deployment
+### Clone it
+```cli
+git clone https://github.com/mMormin/react-oclock
+git switch "ex:recette (queried project)" 
+yarn (to install dependencies)
+```
+
+### Install the dependencies
+```cli
+yarn
+```
+
+### Launch it vite
+```cli
+yarn dev || yarn vite
+```
