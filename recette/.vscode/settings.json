@@ -57,5 +57,8 @@
     "titleBar.activeForeground": "#15202b",
     "titleBar.inactiveBackground": "#fb597d99",
     "titleBar.inactiveForeground": "#15202b99"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
   }
 }

@@ -1,0 +1,14 @@
+@use '../../styles/variables' as v;
+
+.app {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  min-height: 100vh;
+
+  &-link {
+    color: v.$color-primary;
+  }
+}

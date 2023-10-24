@@ -1,0 +1,41 @@
+@use '../../styles/variables' as v;
+
+.header {
+  color: white;
+
+  &__thumbnail {
+    height: 46vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 1rem 1rem;
+  }
+
+  &__bandeau {
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    width: 100%;
+    bottom: 5rem;
+    padding: 1rem 0;
+
+    &-title {
+      font-family: Georgia, serif;
+      letter-spacing: 0.4rem;
+    }
+
+    &-author {
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.05rem;
+      font-style: italic;
+    }
+
+    &-difficulty {
+      &--bold {
+        &:before {
+          content: '\00a0';
+        }
+        font-weight: bold;
+      }
+    }
+  }
+}
