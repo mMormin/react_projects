@@ -1,11 +1,16 @@
 import './App.scss';
+import Header from '../Header/Header';
+import Currencies from '../Currencies/Currencies';
+import Result from '../Result/Result';
 
-import data from '../../data/data';
+import data from '../../data/currencies';
 
 function App() {
   return (
     <div className="app">
-     <h1>iyu </h1>
+      <Header />
+      <Currencies currencies={data} />
+      <Result />
     </div>
   );
 }

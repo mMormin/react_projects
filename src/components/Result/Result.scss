@@ -1,0 +1,16 @@
+@use '../../styles/variables' as v;
+
+.result {
+  padding: v.$gap-default;
+  color: v.$color-primary;
+
+  &-value {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  &-code {
+    font-size: 2rem;
+    font-weight: 200;
+  }
+}

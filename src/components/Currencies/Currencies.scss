@@ -1,0 +1,27 @@
+@use '../../styles/variables' as v;
+
+.currencies {
+  color: v.$color-primary;
+  text-align: left;
+
+  h2 {
+    margin-top: v.$gap-default;
+    letter-spacing: v.$spacing-bigger;
+    padding: 0.5rem v.$gap-default;
+    border-bottom: 1px solid v.$color-alternate;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    height: 25rem;
+    li {
+      list-style: none;
+      font-size: v.$gap-default;
+      padding: 0.5rem v.$gap-default;
+      border-bottom: 1px solid v.$color-alternate;
+      cursor: pointer;
+    }
+  }
+}

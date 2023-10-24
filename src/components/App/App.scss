@@ -1,14 +1,12 @@
 @use '../../styles/variables' as v;
 
 .app {
+  margin: v.$gap-tiny auto;
   text-align: center;
-  width: 50%;
+  width: 25rem;
   display: flex;
-  margin: 0 auto;
   flex-direction: column;
-  min-height: 100vh;
-
-  &-link {
-    color: v.$color-primary;
-  }
+  color: v.$color-white;
+  background-color: v.$color-white;
+  border-radius: 31rem 31rem 3rem 3rem;
 }

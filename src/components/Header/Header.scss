@@ -1,0 +1,16 @@
+@use '../../styles/variables' as v;
+
+header {
+  background-color: v.$color-primary;
+  padding: v.$gap-default 0;
+  border-radius: 5rem;
+  letter-spacing: v.$spacing-bigger;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    font-size: 2rem;
+  }
+}
