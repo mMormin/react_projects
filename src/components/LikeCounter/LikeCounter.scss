@@ -1,0 +1,19 @@
+@use '../../styles/variables' as v;
+
+footer {
+  width: 100%;
+  background-color: v.$color-alternate;
+  padding-top: 1rem;
+  font-weight: bold;
+
+  button.button-like {
+    margin: 0;
+    padding: 5px 10px 0 10px;
+    border: 1px solid #282c34;
+  }
+
+  p {
+    margin-top: 0.5rem;
+    color: v.$color-black;
+  }
+}
