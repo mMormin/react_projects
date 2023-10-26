@@ -20,9 +20,7 @@ function LikeCounter({ likesCount, setLikesCount }: LikeCounterProps) {
       >
         ❤️ THIS APP
       </button>
-      <p>
-        Already <b>{likesCount}</b> people like it !
-      </p>
+      <p>{likesCount} people like it !</p>
     </footer>
   );
 }

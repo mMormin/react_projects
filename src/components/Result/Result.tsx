@@ -1,12 +1,15 @@
 import './Result.scss';
 
-// import data from '../../data/currencies';
+type ResultProps = {
+  value: number;
+  currencyName: string;
+};
 
-function Result() {
+function Result({ value, currencyName }: ResultProps) {
   return (
     <div className="result">
-      <p className="result-value">1.09</p>
-      <p className="result-code">United States Dollar</p>
+      <p className="result-value">{value}</p>
+      <p className="result-code">{currencyName}</p>
     </div>
   );
 }

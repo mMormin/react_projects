@@ -4,11 +4,28 @@
   color: v.$color-primary;
   text-align: left;
 
-  h2 {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
     margin-top: v.$gap-default;
-    letter-spacing: v.$spacing-bigger;
     padding: 0.5rem v.$gap-default;
     border-bottom: 1px solid v.$color-alternate;
+
+    h2 {
+      letter-spacing: v.$spacing-bigger;
+    }
+
+    input {
+      padding-left: 1rem;
+      border: 2px solid v.$color-primary;
+      color: black;
+      font-weight: bold;
+      font-size: 1.4rem;
+      width: 50%;
+      line-height: 1.4rem;
+      background-color: rgb(240, 240, 240);
+    }
   }
 
   ul {
@@ -16,12 +33,19 @@
     padding: 0;
     overflow-y: scroll;
     height: 25rem;
+
     li {
       list-style: none;
       font-size: v.$gap-default;
-      padding: 0.5rem v.$gap-default;
       border-bottom: 1px solid v.$color-alternate;
       cursor: pointer;
+
+      button {
+        padding: 0.5rem v.$gap-default;
+        width: 100%;
+        border: 0;
+        background-color: inherit;
+      }
     }
   }
 }

@@ -3,6 +3,7 @@
 .result {
   padding: v.$gap-default;
   color: v.$color-primary;
+  min-height: 13rem;
 
   &-value {
     font-size: 4rem;
