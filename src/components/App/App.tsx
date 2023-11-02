@@ -11,7 +11,7 @@ import './App.scss';
 function App() {
   const [likesCount, setLikesCount] = useState(0);
   const [currency, setCurrency] = useState<Currency>(currenciesData[0]);
-  const [, setRate] = useState(0);
+  const [rate, setRate] = useState(0);
 
   useEffect(() => {
     document.title = `${currency.description} - React Currency Converter`;
@@ -29,7 +29,7 @@ function App() {
     <div className="app">
       <Header />
       <Currencies currencies={currenciesData} onClickCurrency={setCurrency} />
-      <Result value={currency.rate} currencyName={currency.description} />
+      <Result value={rate} currencyName={currency.description} />
       <LikeCounter likesCount={likesCount} setLikesCount={setLikesCount} />
     </div>
   );
